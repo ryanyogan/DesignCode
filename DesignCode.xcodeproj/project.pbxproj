@@ -16,6 +16,10 @@
 		94975C322A4BE43700C79CA4 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94975C312A4BE43700C79CA4 /* MessageView.swift */; };
 		94975C342A4BE57700C79CA4 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94975C332A4BE57700C79CA4 /* MenuView.swift */; };
 		94975C362A4C904C00C79CA4 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94975C352A4C904C00C79CA4 /* ChartView.swift */; };
+		94975C382A4C957100C79CA4 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94975C372A4C957100C79CA4 /* GridView.swift */; };
+		94975C3A2A4C98D700C79CA4 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94975C392A4C98D700C79CA4 /* CardView.swift */; };
+		94975C3C2A4C9CB400C79CA4 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94975C3B2A4C9CB400C79CA4 /* DetailView.swift */; };
+		94975C3E2A4C9F8300C79CA4 /* RadialLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94975C3D2A4C9F8300C79CA4 /* RadialLayoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,10 @@
 		94975C312A4BE43700C79CA4 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		94975C332A4BE57700C79CA4 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		94975C352A4C904C00C79CA4 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		94975C372A4C957100C79CA4 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		94975C392A4C98D700C79CA4 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		94975C3B2A4C9CB400C79CA4 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		94975C3D2A4C9F8300C79CA4 /* RadialLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialLayoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 			children = (
 				9493B1FA2A4BC0FB002EA665 /* DesignCodeApp.swift */,
 				9493B1FC2A4BC0FB002EA665 /* ContentView.swift */,
+				94975C3D2A4C9F8300C79CA4 /* RadialLayoutView.swift */,
+				94975C3B2A4C9CB400C79CA4 /* DetailView.swift */,
+				94975C392A4C98D700C79CA4 /* CardView.swift */,
+				94975C372A4C957100C79CA4 /* GridView.swift */,
 				94975C352A4C904C00C79CA4 /* ChartView.swift */,
 				94975C332A4BE57700C79CA4 /* MenuView.swift */,
 				94975C2D2A4BDFD000C79CA4 /* NavigationStackView.swift */,
@@ -153,7 +165,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9493B1FD2A4BC0FB002EA665 /* ContentView.swift in Sources */,
+				94975C3A2A4C98D700C79CA4 /* CardView.swift in Sources */,
 				94975C342A4BE57700C79CA4 /* MenuView.swift in Sources */,
+				94975C3E2A4C9F8300C79CA4 /* RadialLayoutView.swift in Sources */,
+				94975C3C2A4C9CB400C79CA4 /* DetailView.swift in Sources */,
+				94975C382A4C957100C79CA4 /* GridView.swift in Sources */,
 				94975C2E2A4BDFD000C79CA4 /* NavigationStackView.swift in Sources */,
 				94975C362A4C904C00C79CA4 /* ChartView.swift in Sources */,
 				9493B1FB2A4BC0FB002EA665 /* DesignCodeApp.swift in Sources */,

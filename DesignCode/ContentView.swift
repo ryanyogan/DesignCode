@@ -32,9 +32,9 @@ struct ContentView: View {
             case .card:
                 Text("Card")
             case .charts:
-                Text("Card")
+                DetailView()
             case .radial:
-                Text("Card")
+                RadialLayoutView()
             case .halfsheet:
                 MenuView()
             case .gooey:
@@ -43,6 +43,8 @@ struct ContentView: View {
                 Text("Card")
             }
             
+        }
+        .onTapGesture {
         }
         .gesture(longPress)
         .sheet(isPresented: $showMenu) {
